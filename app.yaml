@@ -1,0 +1,11 @@
+runtime: nodejs18
+
+env_variables:
+  DATABASE_HOST: "/cloudsql/${DATABASE_INSTANCE}"
+  DATABASE_USER: "root"
+  DATABASE_PASSWORD: "Mattox--osc4"
+  DATABASE_NAME: "effibuild"
+  NODE_ENV: "production"
+
+beta_settings:
+  cloud_sql_instances: ${DATABASE_INSTANCE}

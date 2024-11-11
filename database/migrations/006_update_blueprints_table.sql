@@ -1,0 +1,3 @@
+ALTER TABLE blueprints
+ADD COLUMN ai_analysis JSON DEFAULT NULL,
+ADD COLUMN assistant_thread_id VARCHAR(255) DEFAULT NULL;

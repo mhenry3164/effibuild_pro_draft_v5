@@ -1,0 +1,21 @@
+# Versioning and metadata
+.git
+.gitignore
+.dockerignore
+
+# Dependencies
+node_modules
+npm-debug.log
+
+# Build artifacts
+dist
+build
+.next
+.env
+.env.*
+
+# Development environment
+.vscode
+.idea
+*.swp
+*.swo
